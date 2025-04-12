@@ -155,6 +155,17 @@ img {
 }
 .nav__logo {
   color: var(--second-color);
+ 
+
+}
+
+.nav__logo:hover{
+  background-color: rgba(87 ,159 ,255,.2);
+  padding-right: 2px;
+
+  border-radius: 8px;
+ 
+
 }
 .nav__toggle {
   color: var(--second-color);
@@ -316,6 +327,7 @@ img {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .work__img img {
   transition: 1s;
 }

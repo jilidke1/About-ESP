@@ -39,9 +39,7 @@ const scrollActive = () =>{
             sectionsClass.classList.remove('active-link')
         }                                                    
     })
-}
-
-
+} 
 window.addEventListener('scroll', scrollActive)
 
 /*===== SCROLL REVEAL ANIMATION =====*/
